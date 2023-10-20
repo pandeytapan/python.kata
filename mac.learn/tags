@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+choice	classify_one.py	/^    choice = input("Do you want to continue? (y\/n): ")$/;"	v
+data	classify_one.py	/^data = [[120, 80], [100, 60], [130, 90], [150, 100]]$/;"	v
+fruit	classify_one.py	/^    fruit = model.predict([[size, weight]])$/;"	v
+labels	classify_one.py	/^labels = ['Apple', 'Apple', 'Orange', 'Orange']$/;"	v
+model	classify_one.py	/^model = DecisionTreeClassifier()$/;"	v
+size	classify_one.py	/^    size = int(input("Enter size of fruit (in cms): "))$/;"	v
+weight	classify_one.py	/^    weight = int(input("Enter weight of fruit (in gms): "))$/;"	v
