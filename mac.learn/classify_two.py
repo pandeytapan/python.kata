@@ -26,6 +26,9 @@ iris = datasets.load_iris()
 feature = iris.data
 label = iris.target
 
+print("Feature shape: ", feature.shape)
+print("Label shape: ", label.shape)
+
 # Split the data into training and testing sets
 # for each feature, 70% of the data is used for training and 30% for testing
 # you'll get back 4 arrays: feature_train, feature_test, label_train, label_test

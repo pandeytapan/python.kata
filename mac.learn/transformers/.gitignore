@@ -1,0 +1,14 @@
+# ignore the environment file
+.env
+
+#ignore the virtual environment
+venv
+
+# ignore the temporary files and cache
+*.tmp
+*.log
+*.cache
+*.swp
+*.DS_Store
+
+
