@@ -1,6 +1,9 @@
 # Linters
 flake8
 autopep8
+
+# libraries
+/home/tapan/Documents/lib.bin/ezgraphics-2.2.tar.gz
 # Virtual environment
 # name: python.env
 # interpreter_path: /usr/bin/python3
