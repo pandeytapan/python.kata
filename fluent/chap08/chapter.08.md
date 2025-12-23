@@ -41,4 +41,35 @@ In the next example `Gizmo() * 10` the `Gizmo` is getting created but since mult
 
 ## Identity, Equality and Aliases
 
+Every object in Python occupies memory. We've a list here referenced by `charles` and we stored the reference in another variable `lewis`:
 
+```python
+>>> charles = {'name': 'Charles L. Dodgson', 'born': 1832}
+>>> lewis = charles
+>>> lewis
+{'name': 'Charles L. Dodgson', 'born': 1832}
+>>> charles
+{'name': 'Charles L. Dodgson', 'born': 1832}
+>>> id(lewis)
+4365979200
+>>> id(charles)
+4365979200
+```
+
+When we printed the memory location of the variable, `charles` and the `lewis` we got the same values `4365979200`. 
+
+```python
+>>> lewis == charles
+True
+>>> lewis is charles
+True
+>>> alex = {'name': 'Charles L. Dodgson', 'born': 1832}
+>>> alex == charles
+True
+>>> alex is not charles
+True
+>>> alex is charles
+False
+>>> id(alex)
+4367404992
+```
